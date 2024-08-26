@@ -1,0 +1,69 @@
+
+
+
+.navbar{
+    background-color: #3B3F36;
+}
+
+.navbar .nav-pills .nav-link.active {
+    background-color: aliceblue;
+    color: #D35400;
+}
+
+.navbar .nav-pills .nav-item a , .navbar .navbar-brand{
+    color: aliceblue;
+}
+
+.navbar .navbar-brand , .navbar .navbar-brand:hover { 
+    color: aliceblue;
+}
+
+.navbar-brand{
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+}
+
+.carousel-inner img{
+   max-width: 100%;
+   max-height: 10%;
+}
+
+.section-title{
+    font-family: "Oswald", sans-serif;
+    color: #D35400;
+}
+
+.container h2{
+    font-family: "Oswald", sans-serif;
+}
+
+.nav-armas .nav-link.active{
+    background-color:#3B3F36;
+    color: aliceblue;
+}
+
+.nav-armas .nav-link{
+    background-color:aliceblue;
+    color: #D35400;
+}
+
+.text-colored{
+    color: #D35400;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button{
+    background-color: #D35400;
+    color: aliceblue;
+}
