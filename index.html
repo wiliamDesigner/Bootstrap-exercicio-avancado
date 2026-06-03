@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Nome da loja de armas</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#armas" class="nav-link active">Armas</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#documentacao" class="nav-link ">
+                            <i class="bi bi-person-vcard-fill me-1"></i>Documentação
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link ">
+                            <i class="bi bi-question-circle-fill me-1"></i>Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">
+                            <i class="bi bi-chat-right-dots-fill me-1"></i>Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+
+        <section id="sobre a loja">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="img/slide1.png" class="d-block w-100" alt="Era para ser uma arma">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/slide2.png" class="d-block w-100" alt="Era para ser outra arma">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/slide3.png" class="d-block w-100" alt="Era para ser mais uma arma">
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <section id="documentacao">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/jay-rembert-e0kgA5otj0Q-unsplash.jpg" class="d-block w-100 rounded" alt="Foto de uma arma a venda">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre as armas</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos fugiat excepturi dolore, corporis sed, cumque alias similique ea sit, consequatur voluptas officiis sequi veniam molestias magni voluptate sunt eligendi.</p>
+                            <h3 class="section-title">Sobre a documentação</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsa deleniti numquam iusto atque reprehenderit eum laboriosam blanditiis, rem, placeat non, obcaecati quaerat excepturi voluptatibus minima est aut at.</p>
+                            <ul>
+                                <li>Documento-1</li>
+                                <li>Documento-2</li>
+                                <li>Documento-3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="eventos" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Segurança total</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mt-2">
+                        <img src="img/thomas-tucker-kVjj9zPshxU-unsplash.jpg" class="d-block w-100 rounded" alt="">
+                        <h3 class="section-title" >Pistola</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi ad saepe perspiciatis delectus eveniet fuga veniam facere, velit natus dolore libero iste unde tempora enim. Porro veritatis quasi dolore?</p>
+                    </div>
+
+                    <div class="col-md-4 mt-2">
+                        <img src="img/jens-lelie-KGRZFB1U25I-unsplash.jpg" class="d-block w-100 rounded"alt="">
+                        <h3 class="section-title" >Derringer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi ad saepe perspiciatis delectus eveniet fuga veniam facere, velit natus dolore libero iste unde tempora enim. Porro veritatis quasi dolore?</p>
+                    </div>
+
+                    <div class="col-md-4 mt-2">
+                        <img src="img/m45.jpg" class="d-block w-100 rounded " alt="">
+                        <h3 class="section-title" >M-45</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi ad saepe perspiciatis delectus eveniet fuga veniam facere, velit natus dolore libero iste unde tempora enim. Porro veritatis quasi dolore?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="armas">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center ">Preços</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-armas">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armas-brancas" class=" fw-bold text-start nav-link active">Armas Brancas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pistolas" class=" fw-bold text-start nav-link ">Pistolas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#metralhadoras" class=" fw-bold text-start nav-link ">Metralhadoras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fuzil" class=" fw-bold text-start nav-link ">Fuzil</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="armas-brancas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/fac1.1.jfif" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Faca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="img/arma branca-2.png" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Faca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="img/arma branca-3.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Faca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="img/arma branca-4.png" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Faca</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+
+
+                        <div class="tab-content">
+                            <div class="tab-pane " id="pistolas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/pistola-1.jfif" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Colt M1911</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    
+                                    <div class="col-md-3">
+                                        <img src="img/pistola-2.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Colt M1911</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+
+
+                                    <div class="col-md-3">
+                                        <img src="img/pistola-1.jfif" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Smith & Wesson M&P</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="img/pistola-5.webp" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">SIG Sauer P320</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-content">
+                            <div class="tab-pane " id="metralhadoras">
+                                <div class="row">
+                               
+                                    <div class="col-md-3">
+                                        <img src="img/metralhadora-1.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">M4A1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    
+                                    <div class="col-md-3">
+                                        <img src="img/metralhadora-2.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Ak-47</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+
+
+                                    <div class="col-md-3">
+                                        <img src="img/metralhadora-3.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">M16</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="img/m45.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">HK MP5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="tab-content">
+                            <div class="tab-pane " id="fuzil">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/fuzil-1.jpg" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Barrett M82</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                    
+                                    <div class="col-md-3">
+                                        <img src="img/fuzil-2.png" class="w-100" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Remington 700</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+
+                                
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section id="fale-conosco" class="pt-5 pb-5">
+                <div class="caontainer">
+                    <div class="row">
+                        <h2 class="section-title text-center">Fale conosco</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form >
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored ">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control " required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                    <input type="email" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                    <input type="tel" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                    <textarea  class="form-control" id="mensagem"></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p>
+                                    Rua teste Exemplo n-156 , Bairro-bootsrap - SÃO PAULO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
